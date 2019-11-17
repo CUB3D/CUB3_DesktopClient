@@ -1,0 +1,16 @@
+[package]
+name = "CUB3D_DesktopClient"
+version = "0.1.0"
+authors = ["CUB3D <callumthom11@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tungstenite = "0.9.1"
+url = "2.1.0"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1.0.41"
+notify-rust = "3.6.3"
+
+systray = "0.3.0"
